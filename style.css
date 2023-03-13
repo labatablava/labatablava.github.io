@@ -3,8 +3,7 @@ html {
 
   @font-face {
     font-family: 'pp_editorial_newthin';
-    src: url('ppeditorialnew-thin-webfont.woff2') format('woff2'),
-         url('ppeditorialnew-thin-webfont.woff') format('woff');
+    src: url('https://github.com/labatablava/labatablava.github.io/blob/main/ppeditorialnew-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,8 +20,6 @@ html {
     margin-top: 0;
   }
 }
-
-p { font-family: 'pp_editorial_newthin';}
 
 /* If the screen size is 900px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 900px) {
