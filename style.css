@@ -10,6 +10,15 @@ html {
     font-style: normal;
 
 }
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url(https://labatablava.github.io/PPEditorialNew-ThinItalic.woff2) format('woff2');
+  src: url(https://labatablava.github.io/PPEditorialNew-ThinItalic.woff) format('woff');
+  src: url(https://labatablava.github.io/PPEditorialNew-ThinItalic.ttf) format('ttf');
+  font-weight: 200;
+  font-style: italic;
+
+}
 }
 
 h1 {
@@ -51,6 +60,9 @@ h1 {
 a {
   color: rgb(0, 0, 102);
   text-decoration: none;
+  font-family: 'PP Editorial New', sans-serif;
+  font-weight: 200;
+  font-style: italic;
 }
 
   
