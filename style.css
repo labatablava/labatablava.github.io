@@ -1,0 +1,54 @@
+html {
+  background-color: rgb(230, 230, 230);
+
+  @font-face {
+    font-family: 'pp_editorial_newthin';
+    src: url('ppeditorialnew-thin-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+}
+
+/* If the screen size is 901px wide or more, set the font-size of <div> to 45px */
+@media screen and (min-width: 901px) {
+  div.a {
+    font-family: 'pp_editorial_newthin';
+    font-size: 45px;
+    line-height:2.1em;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+p { font-family: 'pp_editorial_newthin';}
+
+/* If the screen size is 900px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 900px) {
+  div.a {
+    font-family: 'pp_editorial_newthin';
+    font-size: 30px;
+    line-height:2.1em;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 20px */
+@media screen and (max-width: 600px) {
+  div.a {
+    font-size: 20px;
+    line-height:2.1em;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+a {
+  color: rgb(0, 0, 102);
+  text-decoration: none;
+  font-family: 'pp_editorial_newthin';
+}
+
+  
