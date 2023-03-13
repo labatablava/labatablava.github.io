@@ -2,20 +2,26 @@ html {
   background-color: rgb(230, 230, 230);
 
   @font-face {
-    font-family: 'pp_editorial_newthin';
-    src: url('https://labatablava.github.io/ppeditorialnew-thin-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'PP Editorial New';
+    src: url(PPEditorialNew-Thin.woff2) format('woff2');
+    src: url(PPEditorialNew-Thin.woff) format('woff');
+    src: url(PPEditorialNew-Thin.ttf) format('ttf');
+    font-weight: 200;
     font-style: normal;
 
 }
 }
 
+h1 {
+  font-family: 'PP Editorial New', sans-serif;
+  font-weight: 200;
+}
+
 /* If the screen size is 901px wide or more, set the font-size of <div> to 45px */
 @media screen and (min-width: 901px) {
   div.a {
-    font-family: 'pp_editorial_newthin';
-    font-size: 45px;
-    line-height:2.1em;
+    font-size: 44px;
+    line-height:2.2em;
     padding: 0;
     margin-top: 0;
   }
@@ -24,9 +30,9 @@ html {
 /* If the screen size is 900px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 900px) {
   div.a {
-    font-family: 'pp_editorial_newthin';
-    font-size: 30px;
-    line-height:2.1em;
+    font-family: 'PPEditorialNew';
+    font-size: 26px;
+    line-height:2.2em;
     padding: 0;
     margin-top: 0;
   }
@@ -35,8 +41,8 @@ html {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 20px */
 @media screen and (max-width: 600px) {
   div.a {
-    font-size: 20px;
-    line-height:2.1em;
+    font-size: 18px;
+    line-height:2.2em;
     padding: 0;
     margin-top: 0;
   }
@@ -45,7 +51,6 @@ html {
 a {
   color: rgb(0, 0, 102);
   text-decoration: none;
-  font-family: 'pp_editorial_newthin';
 }
 
   
