@@ -1,28 +1,62 @@
 html {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(230, 230, 230);}
 
-  @font-face {
+ @font-face {
     font-family: 'PP Editorial New';
-    src: url(PPEditorialNew-Thin.woff2) format('woff2');
-    src: url(PPEditorialNew-Thin.woff) format('woff');
-    src: url(PPEditorialNew-Thin.ttf) format('ttf');
+    src: url('PPEditorialNew-Thin.woff2') format('woff2'),
+        url('PPEditorialNew-Thin.woff') format('woff');
     font-weight: 200;
     font-style: normal;
-
+    font-display: swap;
 }
+
 @font-face {
-  font-family: 'PP Editorial New';
-  src: url(PPEditorialNew-ThinItalic.woff2) format('woff2');
-  src: url(PPEditorialNew-ThinItalic.woff) format('woff');
-  src: url(PPEditorialNew-ThinItalic.ttf) format('ttf');
-  font-weight: 200;
-  font-style: italic;
-
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
+        url('PPEditorialNew-ThinItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-Thin.woff2') format('woff2'),
+        url('PPEditorialNew-Thin.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-Thin.woff2') format('woff2'),
+        url('PPEditorialNew-Thin.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
+        url('PPEditorialNew-ThinItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
+        url('PPEditorialNew-ThinItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
 }
 
 h1 {
-  font-family: 'PP Editorial New', sans-serif;
+  font-family: 'PP Editorial New', Georgia, 'Times New Roman', Times, serif;
   font-weight: 200;
   letter-spacing: -1px;
 }
@@ -30,7 +64,9 @@ h1 {
 /* If the screen size is 901px wide or more, set the font-size of <div> to 45px */
 @media screen and (min-width: 901px) {
   div.a {
-    font-size: 44px;
+    font-family: 'PP Editorial New', sans-serif;
+    font-weight: 200;
+    font-size: 46px;
     line-height:2.2em;
     padding: 0;
     margin-top: -50px;
@@ -62,6 +98,7 @@ a {
   text-decoration: none;
   font-weight: 200;
   font-style: italic;
+}
 }
 
   
