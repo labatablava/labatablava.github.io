@@ -1,5 +1,7 @@
 html {
-  background-color: rgb(230, 230, 230);}
+
+  background-color: #dadada;
+  }
 
   @font-face {
     font-family: 'PP Editorial New';
@@ -55,15 +57,10 @@ html {
     font-display: swap;
 }
 
-.Editorial {
-  font-family: 'PP Editorial New';
-  font-weight: 100;
-  font-style: normal;
-}
 
 h1 {
-  font-family: 'PP Editorial New', Georgia, 'Times New Roman', Times, serif;
-  font-weight: 200;
+  font-family: 'PP Editorial New', 'Times New Roman', Times, serif;
+  font-weight: 100;
   letter-spacing: -1px;
 }
 
@@ -73,7 +70,7 @@ h1 {
     font-family: 'PP Editorial New', sans-serif;
     font-weight: 200;
     font-size: 46px;
-    line-height:2.2em;
+    line-height:2.18em;
     padding: 0;
     margin-top: -50px;
   }
@@ -100,10 +97,8 @@ h1 {
 }
 
 a {
-  color: rgb(36, 36, 148);
+  color: #1f1d7e;
   text-decoration: none;
   font-weight: 200;
   font-style: italic;
 }
-
-  
