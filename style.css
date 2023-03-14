@@ -1,27 +1,69 @@
 html {
   background-color: rgb(230, 230, 230);}
 
- @font-face {
+  @font-face {
     font-family: 'PP Editorial New';
-    src: url('https://github.com/labatablava/labatablava.github.io/blob/main/PPEditorialNew-Thin.woff2') format('woff2'),
-        url('https://github.com/labatablava/labatablava.github.io/blob/main/PPEditorialNew-Thin.woff') format('woff');
-    font-weight: 100;
+    src: url('PPEditorialNew-Thin.woff2') format('woff2'),
+        url('PPEditorialNew-Thin.woff') format('woff');
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'PP Editorial New';
-    src: url('https://github.com/labatablava/labatablava.github.io/blob/main/PPEditorialNew-ThinItalic.woff2') format('woff2'),
-        url('https://github.com/labatablava/labatablava.github.io/blob/main/PPEditorialNew-ThinItalic.woff') format('woff');
-    font-weight: 100;
+    src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
+        url('PPEditorialNew-ThinItalic.woff') format('woff');
+    font-weight: 200;
     font-style: italic;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-Thin.woff2') format('woff2'),
+        url('PPEditorialNew-Thin.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-Thin.woff2') format('woff2'),
+        url('PPEditorialNew-Thin.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
+        url('PPEditorialNew-ThinItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
+        url('PPEditorialNew-ThinItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+.Editorial {
+  font-family: 'PP Editorial New';
+  font-weight: 100;
+  font-style: normal;
+}
+
 h1 {
   font-family: 'PP Editorial New', Georgia, 'Times New Roman', Times, serif;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: -1px;
 }
 
@@ -62,7 +104,6 @@ a {
   text-decoration: none;
   font-weight: 200;
   font-style: italic;
-}
 }
 
   
