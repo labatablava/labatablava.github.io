@@ -3,9 +3,9 @@ html {
 
   @font-face {
     font-family: 'PP Editorial New';
-    src: url(https://labatablava.github.io/PPEditorialNew-Thin.woff2) format('woff2');
-    src: url(https://labatablava.github.io/PPEditorialNew-Thin.woff) format('woff');
-    src: url(https://labatablava.github.io/PPEditorialNew-Thin.ttf) format('ttf');
+    src: url(PPEditorialNew-Thin.woff2) format('woff2');
+    src: url(PPEditorialNew-Thin.woff) format('woff');
+    src: url(PPEditorialNew-Thin.ttf) format('ttf');
     font-weight: 200;
     font-style: normal;
 
@@ -24,6 +24,7 @@ html {
 h1 {
   font-family: 'PP Editorial New', sans-serif;
   font-weight: 200;
+  letter-spacing: -1px;
 }
 
 /* If the screen size is 901px wide or more, set the font-size of <div> to 45px */
@@ -32,7 +33,7 @@ h1 {
     font-size: 44px;
     line-height:2.2em;
     padding: 0;
-    margin-top: 0;
+    margin-top: -50px;
   }
 }
 
@@ -43,7 +44,7 @@ h1 {
     font-size: 26px;
     line-height:2.2em;
     padding: 0;
-    margin-top: 0;
+    margin-top: -25px;
   }
 }
 
@@ -53,12 +54,12 @@ h1 {
     font-size: 18px;
     line-height:2.2em;
     padding: 0;
-    margin-top: 0;
+    margin-top: -15px;
   }
 }
 
 a {
-  color: rgb(0, 0, 102);
+  color: rgb(36, 36, 148);
   text-decoration: none;
   font-family: 'PP Editorial New', sans-serif;
   font-weight: 200;
