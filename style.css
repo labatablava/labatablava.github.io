@@ -5,7 +5,7 @@ html {
     font-family: 'PP Editorial New';
     src: url('PPEditorialNew-Thin.woff2') format('woff2'),
         url('PPEditorialNew-Thin.woff') format('woff');
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
@@ -14,8 +14,17 @@ html {
     font-family: 'PP Editorial New';
     src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
         url('PPEditorialNew-ThinItalic.woff') format('woff');
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('PPEditorialNew-Thin.woff2') format('woff2'),
+        url('PPEditorialNew-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -30,18 +39,9 @@ html {
 
 @font-face {
     font-family: 'PP Editorial New';
-    src: url('PPEditorialNew-Thin.woff2') format('woff2'),
-        url('PPEditorialNew-Thin.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'PP Editorial New';
     src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
         url('PPEditorialNew-ThinItalic.woff') format('woff');
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
     font-display: swap;
 }
@@ -50,14 +50,14 @@ html {
     font-family: 'PP Editorial New';
     src: url('PPEditorialNew-ThinItalic.woff2') format('woff2'),
         url('PPEditorialNew-ThinItalic.woff') format('woff');
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
     font-display: swap;
 }
 
 h1 {
   font-family: 'PP Editorial New', Georgia, 'Times New Roman', Times, serif;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: -1px;
 }
 
