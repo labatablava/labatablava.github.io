@@ -12,9 +12,9 @@ html {
 }
 @font-face {
   font-family: 'PP Editorial New';
-  src: url(https://labatablava.github.io/PPEditorialNew-ThinItalic.woff2) format('woff2');
-  src: url(https://labatablava.github.io/PPEditorialNew-ThinItalic.woff) format('woff');
-  src: url(https://labatablava.github.io/PPEditorialNew-ThinItalic.ttf) format('ttf');
+  src: url(PPEditorialNew-ThinItalic.woff2) format('woff2');
+  src: url(PPEditorialNew-ThinItalic.woff) format('woff');
+  src: url(PPEditorialNew-ThinItalic.ttf) format('ttf');
   font-weight: 200;
   font-style: italic;
 
