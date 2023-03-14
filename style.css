@@ -4,7 +4,7 @@ html {
  @font-face {
     font-family: 'PP Editorial New';
     src: url('PPEditorialNew-Thin.woff2') format('woff2'),
-        url('PPEditorialNew-Thin.woff') format('woff');
+        url('https://github.com/labatablava/labatablava.github.io/blob/main/PPEditorialNew-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
